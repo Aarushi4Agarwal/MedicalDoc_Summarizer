@@ -20,7 +20,7 @@ def allowed_file(filename):
 
 CORS(app)  # Enable CORS
 
-GEMINI_API_KEY="AIzaSyC05l0XtlWU8xtgUGrOJr0hgZh901buR6A"
+GEMINI_API_KEY=""
 GEMINI_API_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta2/generateText"
 
 # Function to extract text from .docx files
